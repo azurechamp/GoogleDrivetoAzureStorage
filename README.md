@@ -17,3 +17,12 @@ After download JSON file
 2. create `credentials` directory under the `google-drive-sample`
 3. move `google_secret.json` to `google-drive-sample/credentials`
 
+Connect with Azure Storage Account 
+
+1. Place your Azure Storage Credentials into config file and reference it in the code to connect.
+2. Rename the default contanier or to one if you have already created.
+
+Once you have done all, make a CSV file for your data that you want to migrate, or you can use Google Drive helper class to list files and save them to Azure Storage as blobs. In case it's csv, tweak the logic already provided.
+
+## Azure Logic App Limitation
+You can also try to do this via Azure Logic app but it has limitation of 50 MB download from Google Drive which happens to be a big time limitation while we think about migration of our data via Azure Logic App. You can use this project to get things going without limitations, I've tested 500 + mb files and 1+ TB data migrated within a day.
