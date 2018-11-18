@@ -26,3 +26,7 @@ Once you have done all, make a CSV file for your data that you want to migrate, 
 
 ## Azure Logic App Limitation
 You can also try to do this via Azure Logic app but it has limitation of 50 MB download from Google Drive which happens to be a big time limitation while we think about migration of our data via Azure Logic App. You can use this project to get things going without limitations, I've tested 500 + mb files and 1+ TB data migrated within a day.
+
+
+
+Special thanks : https://github.com/se0kjun/google-drive-sample
