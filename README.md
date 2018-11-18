@@ -1,7 +1,7 @@
 # GoogleDrivetoAzureStorage
 Script to Migrate Data from your Google Drive to Azure Storage 
 
-##Installation
+## Installation
 
 	git clone https://github.com/azurechamp/GoogleDrivetoAzureStorage.git
 
